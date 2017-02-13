@@ -1,0 +1,32 @@
+<svg id="76585623-fcda-4585-ac3c-533579f01e62" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252.5 252.5">
+  <defs>
+    <style>
+      .c9870bb3-8718-4ec1-ae12-bf2951a926cd {
+        fill: #ddd;
+      }
+
+      .a1b20a2a-11a2-411f-a83e-6d79fe1ad79a {
+        fill: #232323;
+        fill-rule: evenodd;
+      }
+
+      .e1bab662-65e4-4458-937d-b27993e7fcf8 {
+        fill: #3d99d4;
+      }
+    </style>
+  </defs>
+  <title>digitalizacion</title>
+  <g id="6818ee60-fd6a-4f53-ab66-64de149771e4" data-name="Circle">
+    <path class="c9870bb3-8718-4ec1-ae12-bf2951a926cd" d="M1000.7,450.1a126.3,126.3,0,1,1,126.3-126.3A126.4,126.4,0,0,1,1000.7,450.1Zm0.7-239.6a114.3,114.3,0,1,0,114.3,114.3A114.5,114.5,0,0,0,1001.3,210.5Z" transform="translate(-874.4 -197.5)"/>
+  </g>
+  <g>
+    <path id="261971af-87d5-4e10-b6a6-cf803dc46604" data-name="Phone" class="a1b20a2a-11a2-411f-a83e-6d79fe1ad79a" d="M1026.7,237.4H962.7a10.2,10.2,0,0,0-10.2,10.2V406a10.2,10.2,0,0,0,10.2,10.3h63.9a10.2,10.2,0,0,0,10.3-10.3V247.7A10.2,10.2,0,0,0,1026.7,237.4Zm-32,176.2a6.7,6.7,0,1,1,6.7-6.7A6.7,6.7,0,0,1,994.7,413.6Zm40.2-16.9H954.5V247.1h80.3V396.7Z" transform="translate(-874.4 -197.5)"/>
+    <g>
+      <path class="e1bab662-65e4-4458-937d-b27993e7fcf8" d="M1012,253.3H959.7v22.9H1029V253.3h-17Zm-3,17.3H962.7V258.8h46.4v11.8Z" transform="translate(-874.4 -197.5)"/>
+      <path class="e1bab662-65e4-4458-937d-b27993e7fcf8" d="M999.4,281.9H959.7v22.9H1029V281.9H999.4Zm0,17.3H962.7V287.5h36.7v11.8Z" transform="translate(-874.4 -197.5)"/>
+      <path class="e1bab662-65e4-4458-937d-b27993e7fcf8" d="M992.2,310.6H959.7v22.9H1029V310.6H992.2ZM991.1,328H962.7V316.2h28.4V328Z" transform="translate(-874.4 -197.5)"/>
+      <path class="e1bab662-65e4-4458-937d-b27993e7fcf8" d="M1017.2,339.3H959.7v22.9H1029V339.3h-11.8Zm-1.5,17.3h-53V344.9h53v11.8Z" transform="translate(-874.4 -197.5)"/>
+      <path class="e1bab662-65e4-4458-937d-b27993e7fcf8" d="M1021.1,368H959.7v22.9H1029V368h-7.9Zm-1.5,17.3H962.7V373.6h56.9v11.8Z" transform="translate(-874.4 -197.5)"/>
+    </g>
+  </g>
+</svg>

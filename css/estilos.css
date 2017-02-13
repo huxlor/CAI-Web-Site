@@ -1,0 +1,465 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    	overflow-x: hidden;
+	}
+
+@font-face {
+  font-family: "Cicle Gordita";
+  src: url("../fonts/ciclegordita.eot"); 
+  src: url("../fonts/ciclegordita.eot?#iefix") 
+  format("embedded-opentype"), 
+  url("../fonts/ciclegordita.woff2") 
+  format("woff2"), 
+  url("../fonts/ciclegordita.woff") 
+  format("woff"), 
+  url("../fonts/ciclegordita.ttf") 
+  format("truetype"), 
+  url("../fonts/ciclegordita.svg#Cicle Gordita") 
+  format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Cicle Semi";
+  src: url("../fonts/ciclesemi.eot");
+  src: url("../fonts/ciclesemi.eot?#iefix") 
+  format("embedded-opentype"),  
+  url("../fonts/ciclesemi.woff2") 
+  format("woff2"),
+  url("../fonts/ciclesemi.woff") 
+  format("woff"),
+  url("../fonts/ciclesemi.ttf") 
+  format("truetype"),
+  url("../fonts/ciclesemi.svg#Cicle Semi") 
+  format("svg"); /* iOS 4.1- */
+}
+
+header{
+	font-family:"Cicle Gordita";
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos del header */
+
+.cont_menu{
+	width: 100%;
+	height: 95px; /* Modificar para internet explorer */
+	background-color: white;
+	position: fixed;
+	z-index: 20;
+}
+
+.cajas{
+	float: left;
+}
+
+#cont_logo{
+	margin-left: 10%;
+	width: 25%;
+	height: 90px;
+	background-color: white;
+}
+
+#cont_smenu{
+	/*padding-top: 30px;*/
+	margin-right: 10%;
+	width: 55%;
+	height: 90px;
+	background-color: white;
+}
+
+/* -------------Lista--------------- */
+
+#cont_smenu ul{
+	list-style: none;
+	margin: 0;
+	padding-top: 0px;
+}
+
+#cont_smenu ul li{
+	float: right;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#cont_smenu ul li a{
+	display: block;
+	width: auto;
+	padding: 36px 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+	color:#364458;
+	/*background-color: #000000;*/
+}
+
+#cont_smenu ul li a:hover{
+	color: #3D99D4;
+}
+
+#cont_smenu ul #conferencistas{
+	color: #3D99D4;
+}
+
+#cont_smenu ul #conferencistas:hover{
+	color:#364458;
+}
+
+/* -------------Logo--------------- */
+
+#logo_cai{
+	margin-top: 15px;
+	width: 200px;
+}
+
+header .parallax-window {
+    min-height: 650px;
+    background: transparent;
+}
+
+#ventana_slider{
+
+}
+
+#save{
+	width: 250px;
+	height: 100px;
+	background-color: #FFFFFF;
+	position: absolute;
+	z-index: 10;
+	top: 300px;
+	border-radius: 0 8px 8px 0;
+}
+
+#save h3{
+	margin-top: 20px;
+	text-align: center;
+	font-family: "Cicle Gordita";
+}
+
+#save p{
+	margin-top: 3px;
+	text-align: center;
+	font-size: 40px;
+	color: #3D99D4;
+	font-family: "Cicle Gordita";
+
+}
+
+#haciatemas{
+	top: 500px;
+	position: absolute;
+}
+
+#haciaagenda{
+	top: 550px;
+}
+
+#haciaprecio{
+	margin-top: 480px;
+}
+
+#haciaubica{
+	position: absolute;
+	margin-top: -150px;
+}
+
+#haciapatro{
+	position: absolute;
+	margin-top: -150px;
+}
+
+#haciaanfi{
+	position: absolute;
+	margin-top: 350px;
+}
+
+#haciacontacto{
+	position: absolute;
+	margin-top: 450px;
+}
+
+.refe{
+	width: 100%;
+	height: 150px;
+	/*background-color: rgba(0,0,0,0.4);*/
+}
+
+/* --------------- Encabezado ---------------*/
+
+#encabezado{
+	color: white;
+	position: absolute;
+	top: 400px;
+	font-family: "Cicle Gordita";
+	font-size: 3em;
+	left: 50%;
+}
+
+.cont_temas{
+	width: 100%;
+	height: 700px;
+	background-color: white;
+}
+
+#titulo_temas{
+	width: 100%;
+	height: 120px;
+	/*background-color: orange;*/
+	font-family: "Cicle Gordita";
+	font-size: 2em;
+	text-align: center;
+	color: #364458;
+	padding-top: 100px;
+}
+
+.cont_iconos{
+	width: 100%;
+	height: 350px;
+	/*background-color: red;*/
+}
+
+.iconos{
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
+	width: 750px;
+	height: 350px;
+	background-color: white;
+	float: left; /* Mover para responsive*/
+	z-index: 5;
+}
+
+.iconos svg{
+	margin: auto;
+	width: 200px;
+	margin: 0px 20px;
+}
+
+.text_iconos{
+	width: 200px;
+	height: auto;
+	/*background-color: gray;*/
+	text-align: center;
+	font-family: "Cicle Semi";
+	float: left;
+	padding: 20px 25px;
+}
+
+.cont_text_iconos{
+	width: 100%;
+	height: 100px;
+	/*background-color: orange;*/
+}
+
+#electromovilidad{
+	padding: 20px 20px;
+}
+
+/* ----------- Agenda ---------------------*/
+
+.cont_agenda{
+	width: 100%;
+	height: 700px;
+	background-color: #3D99D4;
+}
+
+.cont_agenda{
+	text-align: center;
+	font-family: "Cicle Gordita";
+	font-size: 4em;
+	color: #FFFFFF;
+	padding-top: 50px;
+}
+
+/* -------------- Precio ------------------*/ 
+
+#ventana_slider_precio{
+	width: 100%;
+	height: 300px;
+    background: rgba(255,255,255,0.5);
+   }
+
+.cont_num_precio{
+	width: 1100px;
+	height: 200px;
+	margin: 100px auto;
+	/*background-color: cyan;*/
+}
+
+#ventana_slider_precio #titulo_precio{
+	font-size: 80px;
+	font-family: "Cicle Gordita";
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 100px;
+	color: #364458;
+}
+
+#linea{
+	width: 5px;
+	height: 180px;
+	background-color: #3D99D4;
+	position: absolute;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: 380px;
+}
+
+#num_precio{
+	position: absolute;
+	font-size: 80px;
+	margin-left: 450px;
+	margin-top: 50px;
+	color: #808285;
+}
+
+/* -------------- Mapa -----------------------*/
+
+.cont_ubicacion{
+	width: 100%;
+	height: 500px;
+	background-color: #FFFFFF;
+}
+
+.map{
+	width: 100%;
+	height: 500px;
+}
+
+.map-wrap {
+	position:relative; 
+}
+	
+.overlay {
+	width:100%;
+	min-height:500px; 
+	position:absolute; 
+	top:0;
+}
+
+/* ----------- Patrocinadores -------------------------*/
+
+.cont_patrocinadores{
+	width: 100%;
+	height: 500px;
+	background-color: #364458;
+}
+
+
+/* ---------- Anfitriones ----------------------------*/
+
+.cont_anfitriones{
+	width: 100%;
+	height: 320px;
+	background-color: #FFFFFF;
+}
+
+#img_kapta{
+	width: 400px;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: 120px;
+}
+
+#img_corferias{
+	width: 300px;
+	right: 50%;
+	margin-right: -400px;
+	margin-top: 80px;
+}
+
+.images_anfitriones{
+	position: absolute;
+}
+
+/* ------------- contacto --------------*/ 
+
+.cont_contacto{
+	height: 600px;
+	background-color: rgba(54,68,88,0.7);
+}
+
+#formulario{
+	width: 1000px;
+	height: 450px;
+	/*background-color: black;*/
+	position: absolute;
+	left: 50%;
+	float: left;
+	display:block;
+	margin-top: 80px;
+	margin-left: -500px;
+}
+
+#formulario h3{
+	font-family: "Cicle Gordita";
+	color: white;
+	font-size: 3em;
+	text-align: center;
+}
+
+#formulario form {
+	top: 50%;
+	margin-top: -150px;
+    width:900px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    /*background-color: red;*/
+}
+
+input{
+    width:270px;
+    height:40px;
+    background:#E9E7E8;
+    border:2px solid #e9f2db;
+    margin-top:5px;
+    color:#003366;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#nombre{
+	margin-right: 34px;
+}
+
+#empresa{
+	margin-right: 34px;
+}
+
+textarea {
+    width:900px;
+    height:250px;
+    background:#E9E7E8;
+    border:0px solid #e9f2db;
+    border-radius: 5px;
+    padding-top:15px;
+    margin-top:15px;
+    font-size:15px;
+    color:#003366;
+}
+
+
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+/* ---------------- Conferencistas -----------------*/
+
+.cont_conferencistas{
+	width: 100%;
+	height: 800px;
+	background-color: #3D99D4;
+}
